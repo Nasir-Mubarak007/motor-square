@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Account - MotorSquare</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  </head>
+
+<body>
+    <div class="loginContainer">
+        <header>
+            <img src="/assets/images/blue logo.png" alt="logo">
+        </header>
+        <main class="loginMain">
+           
+            <div class="loginForm  signupForm">
+                <h2>Hello There, Create Account 👋</h2>
+                <form action="" method="post">
+                    <label for="fullName">Full Name
+                        <input type="text" id="fullName" placeholder="Jane Doe" required class="for-form"/>
+                    </label>
+                    <label for="email">Email
+                        <input type="email" class="for-form" id="email" placeholder="Janedoe@gmail.com" required/>
+                    </label>
+                    <div class="passwordDetail">
+                    <label for="createPassword"
+                    >Create Password
+                    <input
+                        type="password"
+                    class="for-form"
+                    id="createPassword"
+                        placeholder="***********"
+                        required
+                    />
+                    <i class="far fa-eye" id="togglePassword"></i>
+                    </label>
+                    </div>
+                    <div class="passwordDetail">
+                    <label for="loginPassword">Confirm Password</label>
+                  
+                   <input type="password" name="password" id="loginPassword"  class="for-form" placeholder="********">
+                    <i class="far fa-eye" id="togglePassword2"></i>
+                    </div>
+                </form>
+                <div class="Words">
+                    <input type="checkbox"  id="" class="checkbox"> 
+                    <p>Accept <span><a href="#">Terms and Conditions</a></span> 
+                    </p>
+                </div>
+                <button class="loginBtn" onclick="window.location.href = 'login.html'">Signup</button>
+
+                <p class="or">Or</p>
+                <div class="googleSignIn">
+                    <svg 
+                        width="19" 
+                        height="19" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_161_1868)">
+                        <path d="M23.714 12.2245C23.714 11.2413 23.6342 10.5238 23.4616 9.77966H12.2336V14.2176H18.8241C18.6913 15.3205 17.9738 16.9815 16.3793 18.0976L16.3569 18.2462L19.907 20.9964L20.1529 21.0209C22.4118 18.9347 23.714 15.8653 23.714 12.2245Z" fill="#4285F4"/>
+                        <path d="M12.2336 23.9176C15.4624 23.9176 18.173 22.8545 20.153 21.0209L16.3793 18.0976C15.3694 18.8018 14.0141 19.2934 12.2336 19.2934C9.07118 19.2934 6.38712 17.2074 5.43032 14.324L5.29008 14.3359L1.59866 17.1927L1.55038 17.3269C3.51692 21.2334 7.55634 23.9176 12.2336 23.9176Z" fill="#34A853"/>
+                        <path d="M5.43032 14.3239C5.17786 13.5798 5.03176 12.7825 5.03176 11.9587C5.03176 11.1349 5.17786 10.3376 5.41704 9.59354L5.41035 9.43507L1.67267 6.53235L1.55038 6.59052C0.73988 8.21162 0.274811 10.032 0.274811 11.9587C0.274811 13.8854 0.73988 15.7058 1.55038 17.3269L5.43032 14.3239Z" fill="#FBBC05"/>
+                        <path d="M12.2336 4.62403C14.4791 4.62403 15.9939 5.59402 16.8576 6.40461L20.2326 3.10928C18.1599 1.1826 15.4624 0 12.2336 0C7.55634 0 3.51692 2.68406 1.55038 6.59056L5.41704 9.59359C6.38712 6.7102 9.07118 4.62403 12.2336 4.62403Z" fill="#EB4335"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_161_1868">
+                        <rect width="23.4504" height="24" fill="white" transform="translate(0.274811)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <button class="loginGogle">Sign in with Google</button> 
+                </div>
+
+                <p class="signup">Already have an account? <span><a href="/customer/login.html"> Sign in</a></span><p>
+            </div>
+            
+            <div class="imgDiv signupDiv">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide slide_1">
+                        <img
+                          src="/assets/images/bro.png"
+                          alt="man working"
+                          class="swiper-lazy"
+                        />
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                          aliquam, purus sit amet luctus
+                        </p>
+                      </div>
+                      <div class="swiper-slide slide_2">
+                        <img
+                          src="/assets/images/bro.png"
+                          alt="man working"
+                          class="swiper-lazy"
+                        />
+                        <p>
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                          Totam dicta fugit quae temporibus vero, ipsa molestias officia
+                          
+                        </p>
+                      </div>
+                      <div class="swiper-slide slide_3">
+                        <img
+                          src="/assets/images/bro.png"
+                          alt="man working"
+                          class="swiper-lazy"
+                        />
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                          aliquam, purus sit amet luctus
+                        </p>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/signup.js"></script>
+</body>
+</html>
